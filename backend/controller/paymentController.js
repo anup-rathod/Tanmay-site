@@ -12,8 +12,8 @@ let userData = {};
 let userInfo;
 let totalAmount;
 const instance = new Razorpay({
-  key_id: process.env.RAZORPAY_API_KEY,
-  key_secret: process.env.RAZORPAY_API_SECRET,
+  key_id: process.env.RAZORPAY_API_KEY || "abcd123",
+  key_secret: process.env.RAZORPAY_API_SECRET || "abcd123secret",
 });
 const checkout = async (req, res) => {
 
