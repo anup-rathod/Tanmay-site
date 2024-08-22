@@ -18,7 +18,7 @@ dotenv.config();
 
 connectToMongo();
 
-const port = 5000;
+const port = process.env.PORT || "https://tanmay-site.onrender.com";
 const app = express();
 
 // Serve static files from the "frontend/build" directory
@@ -55,5 +55,5 @@ app.use('/api', paymentRoute);
 app.use('/api/password', forgotPassword);
 
 app.listen(port, () => {
-    console.log(`E-commerce backend listening at http://localhost:${port}`);
+    console.log(`E-commerce backend listening at ${port}`);
 });
