@@ -97,7 +97,7 @@ const ProductDetail = () => {
         const data = {
             text: product.name,
             title: "shreeji",
-            url: `https://backend-yn44.onrender.com/Detail/type/${cat}/${id}`
+            url: `https://tanmay-site.onrender.com/Detail/type/${cat}/${id}`
         }
         if (navigator.canShare && navigator.canShare(data)) {
             navigator.share(data);
