@@ -18,7 +18,7 @@ dotenv.config();
 
 connectToMongo();
 
-const port = process.env.PORT || "https://localhost:5000";
+const port = process.env.PORT || 5000;
 const app = express();
 
 // Serve static files from the "frontend/build" directory
