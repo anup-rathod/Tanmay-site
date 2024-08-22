@@ -1,0 +1,82 @@
+/* ProductCard.module.css */
+
+.main_card {
+    width: 320px;
+    margin: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    height: 420px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.main_card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card_action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart_box {
+    height: 260px;
+    width: 290px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+
+.cart_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.cardContent {
+    padding: 15px;
+    text-align: center;
+}
+
+.cardContent h6 {
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.cardActions {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardActions .MuiTypography-root {
+    font-weight: 500;
+    color: #555;
+}
+
+@media screen and (max-width: 960px) {
+    .main_card {
+        width: 250px;
+        height: 350px;
+        padding: 10px;
+    }
+
+    .cart_box {
+        height: 200px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,106 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    font-family: 'Arial', sans-serif; /* Use a professional font */
+}
+.logo span {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between image and text */
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+}
+
+.logo span {
+    font-weight: 800;
+    font-size: 24px;
+    color: #333; /* Darker color for better readability */
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 20px; /* Space between navigation items */
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: center;
+    padding: 8px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #333; /* Darker color for better readability */
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0; /* Light background on hover */
+}
+
+.nav-icon-span {
+    font-size: 16px; /* Adjusted size */
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and text */
+}
+
+.nav-icon {
+    font-size: 20px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 20px; /* Space between navigation items */
+}
+
+@media screen and (max-width: 900px) {
+    .nav ul {
+        display: none;
+    }
+
+    .nav {
+        display: block;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1096px) {
+    .nav {
+        gap: 10px;
+        justify-content: space-between;
+    }
+}

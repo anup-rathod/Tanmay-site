@@ -1,0 +1,13 @@
+export let payment = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838910/payment_mkel3w.jpg';
+export let profile = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838912/vecteezy_user-avatar-line-style__x94mjc.jpg';
+export let MaleCloth = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Male-Cloth_fyyrzb.jpg';
+export let FemaleCloth = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838912/Cloths_kpwmp2.jpg';
+export let GroupCloth = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Cloth-banner_ylavk9.jpg';
+export let Electronics = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Cloth-banner_ylavk9.jpg';
+export let Jewelry = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Cloth-banner_ylavk9.jpg';
+export let Shoes = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Cloth-banner_ylavk9.jpg';
+export let Books = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Cloth-banner_ylavk9.jpg';
+export let EmptyCart = 'https://content3.jdmagicbox.com/comp/ahmedabad/z9/079pxx79.xx79.230209043557.x7z9/catalogue/shreeji-imitation-jewellery-ahmedabad-jewellery-showrooms-pk0o35go5s.jpg';
+export let logo = 'https://content3.jdmagicbox.com/comp/ahmedabad/z9/079pxx79.xx79.230209043557.x7z9/catalogue/shreeji-imitation-jewellery-ahmedabad-jewellery-showrooms-pk0o35go5s.jpg';
+export let Maharastrian;
+export let Saree;
