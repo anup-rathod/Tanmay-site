@@ -1,6 +1,6 @@
 {
-  "name": "Shreeji",
-  "short_name": "Shreeji",
+  "name": "ShopIt",
+  "short_name": "ShopIt",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
   "display": "standalone",
@@ -8,13 +8,13 @@
   "start_url": "/",
   "icons": [
     {
-      "src": "logo2.png",
+      "src": "logo192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "logo2.png",
+      "src": "logo192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
