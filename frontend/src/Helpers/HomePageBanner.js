@@ -13,7 +13,7 @@ const data = [
         name: "Oxidise"
     },
     {
-        img: "../Choli/pic 6.jpg",
+        img: "../choli/pic 6.jpg",
         name: "Choli"
     },
     {
@@ -21,7 +21,7 @@ const data = [
         name: "Saree"
     },
     {
-        img: "../Choli/pic 5.jpg",
+        img: "../choli/pic 5.jpg",
         name: "Choli"
     },
     {
