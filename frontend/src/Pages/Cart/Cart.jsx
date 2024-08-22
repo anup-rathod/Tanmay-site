@@ -61,7 +61,7 @@ const Cart = () => {
             const { data } = await axios.get(`${process.env.REACT_APP_GET_CART}`,
                 {
                     headers: {
-                        'Authorization': authToken
+                        'Authorization': authToken || "secretPass"
                     }
                 })
             setCart(data);
