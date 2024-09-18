@@ -21,11 +21,14 @@ connectToMongo();
 const port = process.env.PORT || 5000;
 const app = express();
 
-// Serve static files from the "frontend/build" directory
-app.use(express.static(path.join(__dirname, '..', 'frontend', 'build')));
-
 // Serve static files from the "public" directory
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
+
+// Serve static files from the "frontend/build" directory
+app.use(express.static("./frontend/build"));
+app.get("*",(req, res) => {
+    res.sendFile(path.resolve(__dirname,"frontend","build","index.html"))
+});
 
 // Middleware
 app.use(bodyParser.json());
